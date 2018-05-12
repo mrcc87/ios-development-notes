@@ -27,3 +27,7 @@ Functions in Swift have a internal name and an external name:
  - external name => used when calling the method and passing arguements into it.
  
 init can have the same internal and external name. Most of the other functions cannot but init is an exception.
+
+
+## Property observers
+lazy vars do not have property observers.
