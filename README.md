@@ -7,6 +7,9 @@ Structs unlike in C Structs have methods
 1. Structs have no inheritance.
 2. Structs are value types and classes are reference types. Value types get copied. Arrays, Ints, Strings, Dictionaries are all Structs.
 
+Other differenes
+1. Structs get a free initializer which initializez all the variables.
+
 
 ## Type inference
 
