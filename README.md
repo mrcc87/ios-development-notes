@@ -31,3 +31,15 @@ init can have the same internal and external name. Most of the other functions c
 
 ## Property observers
 lazy vars do not have property observers.
+
+## Short hand syntax
+
+if emoji[card.identifier] != nil {
+  return emoji[card.identifier]!
+} else {
+  return "?"
+}
+
+Is the same as
+        
+return emoji[card.identifier] ?? "?"
