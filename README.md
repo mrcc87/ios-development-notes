@@ -43,3 +43,5 @@ if emoji[card.identifier] != nil {
 Is the same as
         
 return emoji[card.identifier] ?? "?"
+
+?? means if the value is equal (=) to nil
